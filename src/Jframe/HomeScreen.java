@@ -327,6 +327,7 @@ public class HomeScreen extends javax.swing.JFrame {
                 }
             });
             txtpreco.setText(txtpreco.getText().replace(".", ","));
+            txtpreco.setText(txtpreco.getText().replace(",9 ", ",99"));
             timer.start();
             dialog.setVisible(true);
             timer.stop();
